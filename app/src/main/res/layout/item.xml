@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ImageView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jieshao"
+        android:layout_toRightOf="@id/ImageView"
+        android:id="@+id/TextView_jieshao"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="diqu"
+        android:id="@+id/TextView_diqu"
+        android:layout_below="@+id/TextView_jieshao"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jiage"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/TextView_jiage"
+        android:layout_below="@+id/TextView_jieshao"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dizongjia"
+        android:id="@+id/TextView_dizongjia"
+        android:layout_toRightOf="@id/ImageView"
+
+        android:layout_below="@+id/TextView_diqu"
+        android:layout_alignLeft="@+id/TextView_jieshao"
+        android:layout_alignStart="@+id/TextView_jieshao" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fangzi"
+        android:id="@+id/TextView_fangzi"
+        android:layout_below="@+id/TextView_dizongjia"
+        android:layout_alignLeft="@+id/TextView_diqu"
+        android:layout_alignStart="@+id/TextView_diqu" />
+</RelativeLayout>
